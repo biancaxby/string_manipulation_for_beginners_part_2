@@ -1,0 +1,1 @@
+# Create a program with the same functionality as index
