@@ -8,7 +8,7 @@ print('This program shall mimic the function of count')
 user_input = input('Say something: ')
 count = input('What do you want to count?: ')
 
-# Separate the words 
+# Separate the words and count each appearance of the word 
 split_words = user_input.split()
 for word in split_words:
     if word == count :
