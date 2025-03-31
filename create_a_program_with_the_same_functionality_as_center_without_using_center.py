@@ -6,6 +6,6 @@ sentence = "Witness the might of the seas!{:^6} "
 # Add spaces on the left to make the value on the center
 
 # Print the output
-hatdog = sentence.format(0)
+formatted_string = sentence.format(0)
 new = sentence.replace("0"," ")
 print(new)
