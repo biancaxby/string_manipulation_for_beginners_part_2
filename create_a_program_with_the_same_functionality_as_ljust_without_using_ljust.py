@@ -6,6 +6,6 @@ print('This program will mimic the ljust function without using it')
 sentence = input('Say whatever you want: ')
 
 # Format the string to add spaces to the end of the string
-left_align = "{:>20}".format(sentence)
+left_align = "{:<20}".format(sentence)
 
 print(left_align)
